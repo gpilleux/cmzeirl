@@ -209,7 +209,7 @@ hr.light {
   text-shadow: none;
 }
 ::selection {
-  background: #84ba3f;
+  background: #000e80;
   color: #fff;
   text-shadow: none;
 }
@@ -612,7 +612,9 @@ section {
 /*************************
     Padding top
 *************************/
-/*.pt-0 { padding-top: 0!important }*/
+.pt-0 {
+  padding-top: 0 !important;
+}
 .pt-10 {
   padding-top: 10px !important;
 }
@@ -711,11 +713,16 @@ section {
 .pr-140 {
   padding-right: 140px !important;
 }
+.pr-150 {
+  padding-right: 150px !important;
+}
 
 /*************************
     Padding bottom
 *************************/
-/*.pb-0 { padding-bottom: 0!important }*/
+.pb-0 {
+  padding-bottom: 0 !important;
+}
 .pb-10 {
   padding-bottom: 10px !important;
 }
