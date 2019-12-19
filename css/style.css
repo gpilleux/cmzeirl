@@ -74,6 +74,48 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 ======================================*/
 
 /*************************
+      Button F CSS
+https://www.fabriziovanmarciano.com/button-styles/
+*************************/
+.example_f {
+  border-radius: 4px;
+  background: linear-gradient(to right, #000E80, #4ca5cb) !important;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 50px;
+}
+.example_f span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+.example_f span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.example_f:hover span {
+  color: #FFFFFF;
+  padding-right: 25px;
+}
+.example_f:hover span:after {
+  color: #FFFFFF;
+  opacity: 1;
+  right: 0;
+}
+
+/*************************
       Header
 *************************/
 .default { background: transparent; z-index: 9999; position: absolute; width: 100%; }
@@ -576,14 +618,14 @@ margin-left: -17px; line-height: 50px; }
 /*personal-typer-banner*/
  .personal-typer-banner span.sub-text { font-size: 22px; line-height: 22px; margin-bottom: 16px; display: block; }
  .personal-typer-banner b { border-bottom: 2px solid #84ba3f; }
- .personal-typer-banner h1 { font-size: 100px; line-height: 100px; font-weight: 600; color: #84ba3f; }
+ .personal-typer-banner h1 { font-size: 100px; line-height: 100px; font-weight: 300; color: #84ba3f; }
  .personal-typer-banner h1 span { color: #ffffff; font-size: 50px;  display: inline-block;  transform: rotate(-90deg); line-height: 50px; position: relative; top: -11px; left: -20px; }
  .personal-typer-banner h2 { border-left: 3px solid #84ba3f; padding-left: 10px; margin-top: 20px; }
 
 /*typer-banner*/
-.typer-banner h1 { font-size: 100px; line-height: 100px; font-weight: 600; }
+.typer-banner h1 { font-size: 100px; line-height: 100px; font-weight: 300; }
 .typer-banner p { font-size: 22px; line-height: 22px; }
-.slider-content .typer { color: #84ba3f !important; }
+.slider-content .typer { color: #FFFF19 !important; }
 
 /*popup-video-banner*/
 .popup-video-banner h1 { font-size:60px; line-height:80px; font-weight: 400; }
@@ -612,7 +654,7 @@ margin-left: -17px; line-height: 50px; }
  .white-bg { background: #fff; }
  .gray-bg { background: #f7f7f7; }
  .dark-gray-bg { background: #666666; }
- .theme-bg { background: #84ba3f; }
+ .theme-bg { background: #302BFF; }
  .black-bg { background: #323232; }
  .dark-theme-bg { background: #050801; }
 
@@ -1704,7 +1746,7 @@ img#logo-footer{ height: 40px; width: auto; }
 .portfolio-item.image-text { position: relative; }
 .portfolio-item.image-text .portfolio-overlay { bottom: 30px; background: transparent; }
 .portfolio-item.image-text .portfolio-overlay span { display: block; }
-.portfolio-item.image-text:before { position: absolute; width: 100%; bottom: 0; content: ""; ackground: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.9))); background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%);  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); top: auto; height: 75%; transition: all .35s; }
+.portfolio-item.image-text:before { position: absolute; width: 100%; bottom: 0; content: ""; background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.9))); background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%);  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.9) 100%); top: auto; height: 75%; transition: all .35s; }
 .portfolio-item.image-text .portfolio-overlay a.button { padding: 6px 16px; }
 .portfolio-item.image-text .portfolio-overlay a.button span { font-size: 12px; }
 .portfolio-item.image-text .portfolio-overlay a.button:hover { color: #ffffff;  }
