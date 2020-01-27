@@ -221,8 +221,8 @@ https://www.fabriziovanmarciano.com/button-styles/
 
 /*light*/
 .header.light {  background: #ffffff; position: relative; box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); z-index: 999; }
-.header.light .topbar ul li { color: #323232; }
-.header.light .topbar ul li a { color: #323232; }
+.header.light .topbar ul li { color: white; }
+.header.light .topbar ul li a { color: white; }
 .header.light .mega-menu .menu-links > li > a { color: #323232; }
 .header.light .mega-menu .menu-links > li > a:hover { color: #84ba3f; }
 .header.light .mega-menu .menu-links > li.active > a { color: #84ba3f; }
