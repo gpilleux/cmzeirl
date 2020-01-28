@@ -951,8 +951,8 @@ a.blog-btn i {  margin-left: 10px; -webkit-transition: all 0.3s ease-out 0s; -mo
 .blog-entry .entry-share { margin-top: 20px; display: block; }
 
 /*blog-entry blockquote*/
-.blog-entry.blockquote { background: #84ba3f; border: 0px; padding: 36px 30px; }
-.blog-entry.blockquote blockquote { background: #84ba3f; border-left: 0px; color: #ffffff; padding: 0px; position: relative; margin-top: 0 !important; padding-top: 60px; }
+.blog-entry.blockquote { background: #000E80; border: 0px; padding: 36px 30px; }
+.blog-entry.blockquote blockquote { background: #000E80; border-left: 0px; color: #ffffff; padding: 0px; position: relative; margin-top: 0 !important; padding-top: 60px; }
 .blog-entry.blockquote blockquote:before { content: "\201C"; font-family: Georgia, serif; font-size: 100px; font-weight: bold; color: #ffffff; position: absolute; left: 0px; top: -20px; }
 .blog-entry.blockquote .blog-detail { border: 0px; background: #84ba3f; padding: 0px; }
 .blog-entry.blockquote .blog-detail .entry-title a { color: #ffffff; }
@@ -1292,10 +1292,10 @@ border-color: #f6f7f8 transparent transparent transparent; }
 .blog-single .blog-entry .blog-detail { padding: 0; margin-top: 20px; }
 
 .blog-single .blockquote { font-style: italic;  line-height: 30px; background: #f6f7f8 !important;  }
-.blog-single .blog-entry.blockquote blockquote { background: #f6f7f8;color: #626262;  }
-.blog-single .blog-entry.blockquote blockquote cite {  color: #84ba3f; }
+.blog-single .blog-entry.blockquote blockquote { background: #f6f7f8;color: white;  }
+.blog-single .blog-entry.blockquote blockquote cite {  color: white; }
 .blog-single .entry-share .tags { display: inline-block; }
-.blog-single .blog-entry.blockquote blockquote:before { color: #323232; top: 20px; }
+.blog-single .blog-entry.blockquote blockquote:before { color: white; top: 20px; }
 .page-item.active .page-link { background: #84ba3f; border-color: #84ba3f; }
 
 /*blog-comments*/
@@ -1725,7 +1725,7 @@ img#logo-footer{ height: 40px; width: auto; }
 .blockquote-section blockquote cite { font-size: 16px; font-weight: 600; margin-top: 40px; line-height: 30px; font-family: 'Montserrat', sans-serif; font-style: normal; }
 .blockquote-section blockquote cite span { display: block; font-size: 14px; }
 .blockquote-section blockquote.quote { padding-top: 100px; }
-.blockquote-section blockquote.quote:before { color: #84ba3f; left: 0; top: 0; font-size: 120px; line-height: 120px; }
+.blockquote-section blockquote.quote:before { color: #000E80; left: 0; top: 0; font-size: 120px; line-height: 120px; }
 .blockquote-section .blockquote-section-left { margin-left: 60px;  }
 .blockquote-section .blockquote-section-right { margin-left: -120px; position: relative;z-index: -1; }
 
@@ -2002,7 +2002,7 @@ canvas{-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;
  /*contact 04*/
 .contact-4 .blockquote { border: none; font-size: 30px;}
 .contact-4 p { line-height: 24px;}
-.quote:before { color:#84ba3f;}
+.quote:before { color:#000E80;}
 
 /*contact 05*/
 .contact-5 .feature-info p { margin-bottom: 0;}
