@@ -1616,7 +1616,7 @@ img#logo-footer{ height: 40px; width: auto; }
 /*google-map*/
 .google-map .row [class*='col-'] { min-height: 0; }
 .map-icon { position: relative; z-index: 999; cursor: pointer; }
-.google-map .map-icon:before { cursor: pointer; content: "\f041"; font-family: "FontAwesome"; font-size: 30px; font-weight: normal; right: 0; position: absolute; text-indent: 0; top: -32px; width: 60px; height: 60px; line-height: 60px; border-radius: 50%; background: #ffffff; color: #84ba3f; text-align: center; }
+.google-map .map-icon:before { cursor: pointer; content: "\f041"; font-family: "FontAwesome"; font-size: 30px; font-weight: normal; right: 0; position: absolute; text-indent: 0; top: -32px; width: 60px; height: 60px; line-height: 60px; border-radius: 50%; background: #ffffff; color: #000E80; text-align: center; }
 .google-map.google-map-open .map-icon::before { content: "\f00d"; }
 .google-map .map-open { height: 0; overflow: hidden;  transition: all 900ms ease; }
 .google-map .map-open iframe { height: 300px; }
